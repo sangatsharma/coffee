@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Online Coffee  </title>
+        <link rel="stylesheet"  href="style.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+       
+    </head>
+        <body >
+         <div > 
+            <h1 id="welcome" data-aos="fade"   data-aos-duration="5000" > Welcome To Our Coffee Shop</h1>
+        </div>
+        <div id="GTB">
+            <table border="2" >
+               <tr><th><a href="#GTT">Go to Bottom</a></th></tr>
+            </table>
+        </div>
+        <br>
+        <div id="loc" data-aos="slide-left" data-aos-duration="1000" >
+       <h3 >Pokhara,Industrial State</h3>
+       </div>
+       <div id="smooth" data-aos="slide-left" data-aos-duration="1000" >
+       <h2  style="color:orangered" class=""">Smooth Out Your Day, Every Day.</h2>
+       </div>
+       <audio autoplay>
+        <source src="audio/welcome.mp3"type="audio/mpeg">
+   </audio>
+        <div id="leftimg" data-aos="slide-right" data-aos-duration="1000" data-aos-delay="200">
+             <img src="images/coffee.png" >
+        </div>
+        <div id="rightimg" data-aos="slide-left" data-aos-duration="1000" data-aos-delay="200">
+             <img src="images/coffee2.png" > 
+        </div>
+        <br><br>
+        <div align="center">
+         <table id="menu" border="10" data-aos="fade-right" data-aos-offset="220" >
+           <caption><u><h1>Coffee Menu</h1></u> </caption>
+           <tr>
+              <th><h1>Coffee Type</h1></th>
+              <th><h1>Price</h1></th>
+           </tr>
+           <tr>
+              <th><h2>Capachino</h2></th>
+              <th><h2>120</h2></th>
+            </tr>
+            <tr>
+              <th><h2>Cold coffee</h2></th>
+              <th><h2>80</h2></th>
+            </tr>
+            <tr>
+              <th><h2>Chocolate</h2></th>
+              <th><h2>150</h2></th>
+            </tr>
+         </table>
+       </div>
+    <br>
+   <div  class="wow pulse" data-wow-iteration="infinite" align="center" >
+    <table id="note" border="2" data-aos="slide-up" data-aos-offset="150" >
+        <tr>
+            <th><h2 style="text-align: center;">We deliver within 30 minutes inside the valley.</h2></th>
+        </tr>
+    </table> 
+   </div> 
+   <fieldset style="border-color: lawngreen">
+   <legend> <h2 style="color: chocolate" data-aos="slide-right" data-aos-offset="160"><b><u>Please place your order here.</u></b></h2></legend>
+     <form action="https://formspree.io/f/xvodgelw"
+     method="POST">
+     <fieldset data-aos="flip-up" data-aos-offset="120"  data-aos-delay="100">
+         <legend><h3 style="color:darkslategrey"><b><u>Basic information</u></b></h3></legend>
+         <div >
+            <table border="3" style="border-color: darkblue"  id="BI">
+                <tr>
+                   <th width="100" height="25"><label for="name"> <h3 style="color:maroon"> Name</h3></th>
+                    <th><input name="name" type="text" id="name" required placeholder="your name" maxlength="25" minlength="3"></label></th>    
+                </tr>
+                <tr>
+                    <th width="80" height="20"><label for="email"> <h3 style="color:maroon">Email</h3></th>
+                    <th><input name="Email" type="email" id="email" required placeholder="example@gmail.com"></h2></label> </th>
+                </tr>
+                <tr>
+                    <th width="70" height="20"><label for="ph number"><h3 style="color:maroon">Phone number </h3></th>
+                    <th><input name="phone number" type="number" id="ph number" required placeholder="eg;9811111111"></h2></label></th>
+                </tr>
+                <tr>
+                    <th width="70" height="20"><label for="address"><h3 style="color:maroon">Full Address</h3></th>
+                    <th><input name="address" type="text" id="address" required placeholder="eg;city,tole,ghar no"></h2></label> </th>
+                </tr>
+            </table>
+        </div>
+      </fieldset>
+      <fieldset data-aos="fade-up-left" data-aos-offset="120"  data-aos-delay="150" >
+          <legend ><u><b><h3 style="color:darkorchid">Selection And Payment</h3></b></u></legend>
+          <div id="selection">
+          <h2 > <table id="selecttable" border="4" style="color:firebrick">
+            <th width="250" height="20" style="text-align:center" ><u>Select your Coffee</u> </th>
+            <th width="130" height="20" style="text-align:left" ><u>No. Of Cup</u> </th>
+            <tr>
+                <td>
+                     <label for="selectedcoffee1" >
+                         <input name="capachino" type="checkbox" id="selectedcoffee1" >Capachino
+                </td>
+                <td>
+                     <input name="no. of cup(capachino)" type="number" min="1" max="10" placeholder="eg;2" >
+                    </label> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="selectedcoffee2"> <input name="cold coffee" type="checkbox" id="selectedcoffee2"> Cold coffee</label>
+                </td>
+                <td>
+                     <input name="no. of cup(cold coffee)" type="number"  min="1" max="10"    placeholder="eg;2" id="noc1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="selectedcoffee3"> <input name="chocolate" type="checkbox" id="selectedcoffee3">Chocolate </label>
+                </td>
+                <td>
+                   <input name="no. of cup(chocolate)" type="number"  min="1" max="10"  placeholder="eg;2" >
+                </td>
+            </tr>
+        </table>  </h2>
+    </div>
+    <div id="payment" >
+        <table id="paymenttable" border="10" style="color:black">
+            <th>     
+                 <label for="paymentm">
+                  <h2 border="1" id="SYPM"> <a href="#paymentm"> Select your payment method</a></h2>
+                  <select name="payment method" id="paymentm" required>
+                  <option value="e-sewa">E-sewa</option>
+                  <option value="Ime-Pay">Ime-Pay</option>
+                  <option value="Khalti">Khalti</option>
+                  <option value="COD">COD</option>
+                  </select>
+                  </label>
+            </th>
+        </table>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+       <div id="confirm">
+        <table border="2px" style="color: black" align="center">
+        <th>
+       <label for="confirm"><input name="confirm" type="checkbox" id="confirm" required>I have filled up all the information correctly and I Confirm My Order.</label>
+       </th>
+       </table>
+       </div>
+    
+      </fieldset>
+       <br>
+      <button type="submit" id="submit" style="border: solid black 2px" class="wow pulse" data-wow-iteration="infinite" ><h9>Proceed Delivery</h9></button>
+      <button type="reset" id="clearorder" style="border: solid black 2px" class="wow pulse" data-wow-iteration="infinite"><h9>Clear Order</h9></button>
+     </form>
+    </fieldset>
+    <br>
+    <div id="CUG">
+    <table border="1">
+        <tr><th >contact us on<a href ="mailto:sangatsharma2@gmail.com" target="_blank">Gmail</a></th></tr>
+
+    </table>
+    </div>
+    <br><br>
+    <div id="CUF">
+    <table border="1">
+        <tr><th  >contact us on<a href="https://www.facebook.com/xxangat.xxarma/" target ="_blank" > Facebook</a></th></tr>
+
+    </table>
+    </div>
+    <br>
+    <h5  style="text-align:right;"><i><u>-created by Sangat Sharma.</u></i></h5>
+    <div id="GTT">
+        <table border="1" >
+           <tr><th> <a href="#welcome">Go to Top</a></th></tr>
+        </table>
+    </div>
+    <br><br>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+    </body>
+    
+        </html>
+      

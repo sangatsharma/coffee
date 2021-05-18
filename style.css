@@ -1,0 +1,178 @@
+body{
+    background-image: linear-gradient(to bottom right, skyblue,lightgreen,yellow,violet);
+    }
+    h1{color: brown}
+    h2{font-family: 'Goblin One', cursive;}
+    h3{font-family: 'Exo 2', sans-serif}
+    h5{font-family: font1;}
+@font-face {
+    font-family: font1;
+    src: url('fonts/GoblinOne-Regular.ttf');
+}  
+::-webkit-scrollbar
+{
+    display: none;
+}
+input:focus
+{
+      border: 3px outset black
+}
+#welcome
+{
+    margin-left: 60px;
+    font-size: 40px;
+    text-decoration: underline;
+    text-shadow:3px 6px 10px black;
+    font-variant: small-caps;
+    font-family: 'Goblin One', cursive;
+}
+#loc
+{
+    font-size: 20px;
+    font-variant: small-caps;
+    
+}
+#smooth
+{
+    font-size: 20px;
+    font-variant: small-caps;
+    
+}
+div img
+    {
+        height: 400px;
+        width: 400px;
+    }
+ 
+  #leftimg
+  {
+      float:left;
+      margin-left: 275px;
+  }
+  #rightimg
+  {
+      float:right;
+      margin-right: 275px;
+  } 
+  #GTB
+  {
+  float :right;
+  margin-right: 0px;
+  box-shadow: 2px 3px 5px 3px burlywood;
+  
+  }
+  #GTT
+  {
+    float :right;
+    margin-right:0px;
+    box-shadow: 2px 3px 5px 3px burlywood;
+  }
+  #CUG
+  {
+      float:right;
+      margin-right:0;
+  }
+  #CUF
+  {
+      float:right;
+      margin-left:0px;
+  }
+  #menu
+  {
+      background-color:rosybrown;
+      font-family: 'Josefin Sans', sans-serif;
+      margin: 20px;
+  }
+  #BI
+  {
+      background-color:gray;
+      box-shadow: 5px 3px 0.5px 1px cadetblue;
+      font-family: 'Josefin Sans', sans-serif;
+  }
+ #selection
+ {
+   float:left;
+   padding-top:0px;
+   padding-left: 170px;
+ }
+ #selecttable
+ {
+  
+ background-color:lawngreen;
+ font-family: 'Josefin Sans', sans-serif;
+ }
+ #payment
+ {
+float:right;
+padding-right: 280px;
+padding-top: 23px;
+padding-bottom: 0px;
+}
+#paymenttable
+{
+    background-image: url(images/paymentmethod.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px;
+    opacity: 0.5px;
+}
+#note
+{
+    border:outset white;
+    border-radius: 10px;
+    width: 800px;
+    height: 2px;
+     
+}
+
+#SYPM
+{
+    border-style:solid;
+    padding-top: 0px;
+    background-color: transparent;
+    cursor:pointer;
+    filter: blur(0.5px);
+}
+#paymentm
+{
+    cursor: pointer;
+}
+#submit
+{
+    cursor: pointer;
+}
+#clearorder
+{
+    cursor: pointer;
+    margin-left: 45px;
+}
+.a
+{
+    text-decoration:none ;
+}
+a:link
+{
+    color:blue;
+}
+a:visited{
+    color:black;
+}
+a:hover
+{
+    color:red
+    
+}
+a:active{
+    color:palegreen;
+}
+#selectedcoffee1
+{
+cursor: pointer;
+}
+#selectedcoffee2
+{
+cursor: pointer;
+}
+#selectedcoffee3
+{
+cursor: pointer;
+}
